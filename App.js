@@ -53,16 +53,17 @@ const store = createStore(resetStateReducer(combineReducers({
     createErrorMessageService()
   ),
   reduxLogger
-))
+));
 
 const loadApp = () => {
   const initialStateLoad = loadState().then(state => {
-    store.dispatch({ type: RESET_STATE, payload: state })
+    store.dispatch({ type: RESET_STATE, payload: state });
+  });
 
-  })
-  const loadFonts = Font.loadAsync(fonts)
+  const loadFonts = Font.loadAsync(fonts);
+
   return Promise.all([initialStateLoad, loadFonts]).then(() => {
-    store.dispatch({ type: APP_START })
+    store.dispatch({ type: APP_START });
     startSavingState();
   });
 }
@@ -71,8 +72,8 @@ const startSavingState = () => {
   store.subscribe(() => {
     saveState({
       favourite: store.getState().favourite
-    })
-  })
+    });
+  });
 }
 
 

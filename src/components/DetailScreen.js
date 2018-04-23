@@ -22,9 +22,7 @@ function niceName(name) {
 
 import tfl from 'tube-app/assets/tfl.png'
 
-function DetailScreen({ line, status, favouriteId }) {
-
-  const sortedStatuses = _.sortBy(status.lineStatuses, x => x.statusSeverity)
+function DetailScreen({ line, sortedStatuses, isGoodService, status, favouriteId }) {
 
   return (
     <View style={{backgroundColor: line.backgroundColor, flexGrow: 1}}>
@@ -33,7 +31,7 @@ function DetailScreen({ line, status, favouriteId }) {
       <ScrollView style={{flex:1}}>
         <Padding large>
 
-          {status.lineStatuses.every(x => x.statusSeverity == 10) ? 
+          {isGoodService ? 
             <View>
               <Spacing y={128} />
               <View style={{flexGrow: 1, alignItems: 'center', }}>
@@ -117,10 +115,14 @@ import { TOGGLE_FAVOURITE } from 'tube-app/src/favourite/favouriteActions.js'
 
 function mapStateToProps(state, props) {
   const { lineId } = props.navigation.state.params || {}
+  const status = getLineStatusById(state)[lineId];
+
   return {
     line: state.lines.find(x => x.id == lineId),
     isLoading: state.lineStatus.status == 'loading',
-    status: getLineStatusById(state)[lineId],
+    status: status,
+    sortedStatuses: _.sortBy(status.lineStatuses, x => x.statusSeverity),
+    isGoodService: status.lineStatuses.every(x => x.statusSeverity == 10),
     favouriteId: state.favourite
   }
 }
