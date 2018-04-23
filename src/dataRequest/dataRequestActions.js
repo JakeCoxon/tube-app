@@ -1,0 +1,1 @@
+export const SLOW_REQUEST = "dataRequest/SLOW_REQUEST"

@@ -1,0 +1,2260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders favourite 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#009999",
+      "flexGrow": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 88,
+      }
+    }
+  />
+  <RCTScrollView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            undefined,
+            Object {
+              "paddingLeft": 16,
+            },
+            undefined,
+            Object {
+              "paddingRight": 16,
+            },
+            undefined,
+            Object {
+              "paddingTop": 16,
+            },
+            undefined,
+            Object {
+              "paddingBottom": 16,
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <View>
+          <View
+            style={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                Object {
+                  "height": 128,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexGrow": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  Object {
+                    "marginTop": 8,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={1}
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                Object {
+                  "height": 16,
+                },
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+          />
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#333333",
+                  "fontFamily": "museo-sans-500",
+                  "fontSize": 16,
+                  "lineHeight": 20,
+                },
+                Object {
+                  "color": "white",
+                },
+                Object {
+                  "flexGrow": 1,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Good service on all routes
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`renders good service 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#009999",
+      "flexGrow": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 88,
+      }
+    }
+  />
+  <RCTScrollView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            undefined,
+            Object {
+              "paddingLeft": 16,
+            },
+            undefined,
+            Object {
+              "paddingRight": 16,
+            },
+            undefined,
+            Object {
+              "paddingTop": 16,
+            },
+            undefined,
+            Object {
+              "paddingBottom": 16,
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <View>
+          <View
+            style={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                Object {
+                  "height": 128,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexGrow": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  Object {
+                    "marginTop": 8,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              <Image
+                source={1}
+              />
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                Object {
+                  "height": 16,
+                },
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+          />
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#333333",
+                  "fontFamily": "museo-sans-500",
+                  "fontSize": 16,
+                  "lineHeight": 20,
+                },
+                Object {
+                  "color": "white",
+                },
+                Object {
+                  "flexGrow": 1,
+                  "textAlign": "center",
+                },
+              ]
+            }
+          >
+            Good service on all routes
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`renders loading 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#009999",
+      "flexGrow": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+  />
+</View>
+`;
+
+exports[`renders statuses 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#CC3333",
+      "flexGrow": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 88,
+      }
+    }
+  />
+  <RCTScrollView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            undefined,
+            Object {
+              "paddingLeft": 16,
+            },
+            undefined,
+            Object {
+              "paddingRight": 16,
+            },
+            undefined,
+            Object {
+              "paddingTop": 16,
+            },
+            undefined,
+            Object {
+              "paddingBottom": 16,
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <View>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#333333",
+                  "fontFamily": "museo-sans-500",
+                  "fontSize": 13,
+                  "lineHeight": 16,
+                },
+                Object {
+                  "color": "white",
+                },
+                undefined,
+              ]
+            }
+          >
+            Status update
+          </Text>
+          <View
+            style={
+              Array [
+                undefined,
+                undefined,
+                Object {
+                  "height": 8,
+                },
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+          />
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#333333",
+                  "fontFamily": "museo-sans-500",
+                  "fontSize": 16,
+                  "lineHeight": 20,
+                },
+                Object {
+                  "color": "white",
+                },
+                undefined,
+              ]
+            }
+          >
+            Minor Delays
+          </Text>
+          <View
+            style={
+              Array [
+                undefined,
+                undefined,
+                Object {
+                  "height": 8,
+                },
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "paddingLeft": 8,
+                },
+                undefined,
+                Object {
+                  "paddingRight": 8,
+                },
+                undefined,
+                Object {
+                  "paddingTop": 8,
+                },
+                undefined,
+                Object {
+                  "paddingBottom": 8,
+                },
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 3,
+                },
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontFamily": "museo-sans-500",
+                    "fontSize": 16,
+                    "lineHeight": 20,
+                  },
+                  undefined,
+                  undefined,
+                ]
+              }
+            >
+              Central Line: Minor delays between White City and Leytonstone, eastbound only, due to an earlier signal failure at White City. GOOD SERVICE on the rest of the line. 
+            </Text>
+          </View>
+          <View>
+            <View
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                  undefined,
+                  Object {
+                    "height": 16,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                ]
+              }
+            />
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#333333",
+                    "fontFamily": "museo-sans-500",
+                    "fontSize": 13,
+                    "lineHeight": 16,
+                  },
+                  Object {
+                    "color": "white",
+                  },
+                  undefined,
+                ]
+              }
+            >
+              Affected stops
+            </Text>
+            <View
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                  Object {
+                    "height": 8,
+                  },
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                  undefined,
+                ]
+              }
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "flexWrap": "wrap",
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Bethnal Green 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Bond Street 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Bank 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Chancery Lane 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Holborn 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Holland Park 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Lancaster Gate 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Liverpool Street 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Leyton 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Leytonstone 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Marble Arch 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Mile End 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Notting Hill Gate 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Oxford Circus 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Queensway 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Shepherd's Bush (Central) 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    St. Paul's 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Stratford 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    Tottenham Court Road 
+                  </Text>
+                </View>
+              </View>
+              <View
+                style={
+                  Array [
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginRight": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    Object {
+                      "marginBottom": 8,
+                    },
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                    undefined,
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "paddingLeft": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingRight": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingTop": 8,
+                      },
+                      undefined,
+                      Object {
+                        "paddingBottom": 8,
+                      },
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      undefined,
+                      Object {
+                        "backgroundColor": "white",
+                        "borderRadius": 3,
+                      },
+                    ]
+                  }
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#333333",
+                          "fontFamily": "museo-sans-500",
+                          "fontSize": 13,
+                          "lineHeight": 16,
+                        },
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                  >
+                    White City 
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                undefined,
+                undefined,
+                Object {
+                  "height": 8,
+                },
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                undefined,
+                Object {
+                  "marginLeft": -16,
+                },
+                undefined,
+                Object {
+                  "marginRight": -16,
+                },
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignSelf": "stretch",
+                    "borderBottomWidth": 0.5,
+                  },
+                  Object {
+                    "borderBottomColor": "white",
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+                Object {
+                  "height": 16,
+                },
+                undefined,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

@@ -1,0 +1,1 @@
+export const TOGGLE_FAVOURITE = "favourite/TOGGLE_FAVOURITE";
