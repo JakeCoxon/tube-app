@@ -1,8 +1,4 @@
 # Transport for London underground status
-![screenshot 1](screenshots/IMG-1.PNG)
-![screenshot 2](screenshots/IMG-2.PNG)
-![screenshot 3](screenshots/IMG-3.PNG)
-![screenshot 4](screenshots/IMG-4.PNG)
 
 ## Install
 `yarn install`
@@ -16,3 +12,6 @@
 ## Run on device
 `yarn start`
 Open it in the Expo app on the phone to view it
+
+## Screenshots
+![screenshot 1](screenshots/IMG-1.PNG) ![screenshot 2](screenshots/IMG-2.PNG) ![screenshot 3](screenshots/IMG-3.PNG) ![screenshot 4](screenshots/IMG-4.PNG)
